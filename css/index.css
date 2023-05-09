@@ -1,0 +1,493 @@
+nav {
+    background-color: #324376 !important;
+}
+
+p {
+    font-size: .8rem !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.4rem !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.top-header {
+    background-color: #324376;
+    font-size: .9rem !important;
+}
+
+.address p,
+.socials p {
+    font-weight: lighter !important;
+}
+
+.language  {
+    background-color: #fff !important;
+    color: #324376 !important;
+    border-radius: .5rem;
+    padding: .2rem .6rem;
+}
+
+.subscribe {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+}
+
+.subscribe h6 {
+    font-size: .9rem;
+}
+
+.mail-env,
+.phone {
+    background-color: #324376;
+}
+
+.mail-env i,
+.phone i {
+    color: #d59fe4 !important;
+}
+
+.logo-box {
+    background-color: #eee;
+    color: #251201 !important;
+}
+
+.sub-btn {
+    height: fit-content;
+    margin: auto ;
+    background-image: linear-gradient(132deg, #324376, #d59fe4);
+    border: none;
+}
+
+.sub-btn:hover {
+    background-image: linear-gradient(332deg, #324376, #d59fe4);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20%;
+    left: -12rem;
+}
+
+.carousel-item img {
+    opacity: 1000;
+}
+
+.small-btn button {
+    background-image: linear-gradient(32deg, rgb(210, 15, 15), rgb(169, 6, 169));
+}
+
+.small-btn button:hover {
+    background-image: linear-gradient(132deg, rgb(228, 29, 29), rgb(168, 17, 168));
+}
+
+.fitst-btn button {
+    margin-left: -23rem;
+}
+
+.active-big {
+    color: rgb(35, 58, 126) !important;
+    -webkit-text-stroke: 0.1px #000;
+}
+
+.active-small {
+    color: rgb(35, 58, 126) !important;
+}
+
+.car-cap {
+    margin-left: 6rem;
+}
+
+.third-btn button {
+    margin-left: -19rem;
+}
+
+/* About Section */
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 6rem 0;
+    grid-gap: 4.5rem;
+}
+
+.about-texts h5,
+.about-texts h2 {
+    color: #324376 !important;
+}
+
+.about-texts h5 span,
+.about-texts h2 span {
+    color: #d59fe4 !important;
+}
+
+.about-texts p {
+    color: #251201;
+}
+
+.about-ul {
+    list-style: armenian;
+    color: #251201;
+    font-size: .8rem;
+}
+
+.aboutImage-container img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.about-btn {
+    background-image: linear-gradient(132deg, #324376, #d59fe4);
+    border: none;
+}
+
+.about-btn:hover {
+    background-image: linear-gradient(332deg, #324376, #d59fe4);
+}
+
+/* Services Section */
+
+.services {
+    background-image: linear-gradient(#3243769f, #3243769f), url(../images/pexels-christina-morillo-1181605.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 6rem 0;
+}
+
+/* .services-top {
+    color: #251201 !important;
+} */
+
+.services-top span {
+    color: #d59fe4 !important;
+}
+
+.services-header {
+    margin-top: 2rem 0;
+    margin-bottom: 4.5rem;
+}
+
+.boxes-container {
+    margin: 4rem 0;
+}
+
+
+.services-button button {
+    background-image: linear-gradient(132deg, #324376, #d59fe4);
+    border: none;
+}
+
+.services-button button:hover {
+    background-image: linear-gradient(332deg, #324376, #d59fe4);
+}
+
+/* .investment img,
+.business img,
+.data img {
+    
+    border-radius: .5rem;
+    opacity: 20;
+    width: 100%;
+} */
+
+.investment,
+.business,
+.data {
+    background-color: #fcfbfb;
+    height: 9rem;
+    padding: 2rem;
+    margin: 1.2rem auto;
+}
+
+.investment a,
+.business a,
+.data a {
+    z-index: 10;
+}
+
+.investment,
+.business,
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.investment h2,
+.business h2,
+.data h2 {
+    color: #324376 !important;
+}
+
+
+/* Team Section */
+
+.team {
+    margin: 7rem auto;
+}
+
+.team-header {
+    background-image: linear-gradient(132deg, #324376, #d59fe4);
+    padding: .2rem .4rem;
+    width: fit-content;
+    border-radius: .4rem;
+}
+
+.team-heading {
+    color: #324376 !important;
+}
+
+/* Services Teams Section */
+.team-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin: 5rem auto;
+}
+
+.teams img {
+    width: 100%;
+}
+
+.teams-profile1,
+.teams-profile2,
+.teams-profile3,
+.teams-profile4 {
+    position: relative;
+}
+
+.teams-description {
+    background-color: #eee;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.teams-description h5 {
+    color: #324376 !important;
+}
+
+.teams-description p {
+    color: #d59fe4 !important;
+}
+
+.member1 h5,
+.member2 h5,
+.member3 h5,
+.member4 h5 {
+    transition: 0.4s ease-in-out;
+}
+
+.member1::before, 
+.member2::before, 
+.member3::before,
+.member4::before {
+    content: "";
+    background-image: linear-gradient(132deg, #324376 -5.91%, #d59fe4 111.58%);
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.teams-profile1:hover .member1::before,
+.teams-profile2:hover .member2::before,
+.teams-profile3:hover .member3::before,
+.teams-profile4:hover .member4::before {
+    height: 4.5rem;
+}
+
+
+.teams-profile1:hover .member1 h5,
+.teams-profile2:hover .member2 h5,
+.teams-profile3:hover .member3 h5,
+.teams-profile4:hover .member4 h5 {
+    color: #fff !important;
+   position: relative;
+}
+
+.teams-profile1:hover .member1 p,
+.teams-profile2:hover .member2 p,
+.teams-profile3:hover .member3 p,
+.teams-profile4:hover .member4 p {
+    color: #fff !important;
+   position: relative;
+}
+
+.socs1, 
+.socs2, 
+.socs3, 
+.socs4 { 
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: .4rem 0;
+    position: absolute;
+    display: none;
+    transition: 0.8s ease-in-out;
+    font-size: .7rem;
+}
+
+.socs1 a,
+.socs2 a,
+.socs3 a,
+.socs4 a {
+    background-image: linear-gradient(132deg, #324376 -5.91%, #d59fe4 111.58%);
+    border-radius: .4rem;
+    padding: 5px;
+    transition: 0.8s ease-in-out;
+}
+
+.teams-profile1:hover .socs1,
+.teams-profile2:hover .socs2,
+.teams-profile3:hover .socs3,
+.teams-profile4:hover .socs4 {
+    display: flex;
+    top: 1rem;
+}
+
+.teams-profile1 .socs1 a,
+.teams-profile2 .socs2 a,
+.teams-profile3 .socs3 a,
+.teams-profile4 .socs4 a {
+    margin: .4rem .3rem;
+}
+
+
+/* News Section */
+.news-section {
+    margin: 7rem auto;
+}
+
+.news-left,
+.news-header-btn {
+    background-image: linear-gradient(132deg, #324376 -5.91%, #d59fe4 111.58%);
+    border: none;
+    transition: 1.6s all ease-in;
+}
+
+.news-header-btn:hover {
+    background-image: linear-gradient(332deg, #324376, #d59fe4);
+}
+
+.news-header {
+    margin: 4rem 0;
+}
+
+.news-header h6 {
+    color: #324376 !important;
+}
+
+.news-head {
+    font-size: 2rem;
+}
+
+.news-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.news-shade {
+    color: #324376;
+    background-color: #3243768b;
+    padding: .2rem .4rem;
+    border-radius: .3rem;
+    margin: 0 .4rem;
+}
+
+.card-heading p {
+    color: #251201 !important;
+}
+
+.news-box .card-title {
+    color: #324376 !important;
+}
+
+.card2 .card-text {
+    padding: .435rem;
+}
+
+.card-btn {
+    background-image: linear-gradient(132deg, #324376 -5.91%, #d59fe4 111.58%);
+    border: none;
+}
+
+.card-btn:hover {
+    background-image: linear-gradient(332deg, #324376 -5.91%, #d59fe4 111.58%);
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+    .left-para {
+        display: block;
+    }
+
+    .socials {
+        margin-top: 1.4rem;
+    }
+
+    .subscribe {
+        grid-template-columns: 1fr;
+        margin-bottom: .5rem;
+        display: none;
+    }
+
+    .logo-box {
+        text-align: center;
+    }
+
+    .sub-btn {
+        margin: auto auto auto 1rem;
+        /* width: fit-content; */
+    }
+
+    .carousel-caption {
+        left: 3rem;
+        top: 9%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .carousel-item img {
+        width: 100%;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p:nth-of-type(1) {
+        font-size: .7rem;
+    }
+
+    .first-btn button,
+    .third-btn button,
+    .car-cap  {
+        margin-left: 0;
+    }
+
+    .small-btn button {
+        padding: .3rem .6rem !important;
+    }
+
+    .about,
+    .news-box,
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,180 @@
+p {
+    font-size: .6rem !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: .9rem;
+}
+
+button {
+    font-size: .75rem !important;
+}
+
+.news-blog {
+    margin: 8rem 0;
+}
+
+.news-blog .col-md-7 {
+    margin: 2rem 1.3rem;
+}
+
+.news-blog .col-md-4 {
+    margin: 3.3rem 0;
+}
+
+.blog {
+    margin: 1.3rem 0;
+}
+
+.blog-btn {
+    background-color: #324376;
+    border: none;
+}
+
+.blog-btn:hover {
+    background-color: #19223f;
+}
+
+.nums span {
+    cursor: pointer;
+    border: 1px solid #324376;
+    transition: all .7s linear;
+}
+
+.nums span:hover {
+    background-color: #324376;
+    color: #fff;
+    border: none;
+}
+
+/* News Categories Section  */
+.news-search {
+    background-color: #efefef;
+    padding: 2rem 3rem;
+}
+
+
+#search {
+    border: none;
+    position: relative;
+}
+
+#search:focus {
+    border: none;
+    outline: none;
+}
+
+#search::placeholder {
+    font-size: .8rem;
+}
+
+.search-icon {
+    background-color: #324376;
+    color: #fff;
+    padding: .5rem;
+    position: absolute;
+    left: auto;
+}
+
+.searching {
+    border: 1px solid #19223f;
+    width: fit-content;
+}
+
+/* Categories Section */
+.categories {
+    margin: 3rem 0;
+    background-color: #efefef;
+    padding: 1.3rem 2.4rem;
+}
+
+.straight {
+    color: #d59fe4;
+}
+
+.category {
+    color: #324376;
+}
+
+.cats {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    border-bottom: 1.5px dotted #324376;
+}
+
+.cats p {
+    color: #324376;
+}
+
+.cats-icon {
+    color: #d59fe4;
+    font-weight: bolder;
+}
+
+.cats:last-of-type {
+    border-bottom: none;
+}
+
+/* Popular Posts Section */
+.popular-section {
+    gap: .7rem;
+    margin: 1rem 0;
+    padding: 1.4rem 0;
+    border-bottom: 1.5px dotted #324376;
+}
+
+.popular-section:last-of-type {
+    border-bottom: none;
+}
+
+.popular-section h6 {
+    font-size: .9rem;
+    color: #324376;
+}
+
+.popular-section p {
+    font-size: .6rem;
+    color: #324376;
+}
+
+.popular-posts {
+    background-color: #efefef;
+    padding: 1.3rem 1.5rem;
+}
+
+.popular-posts section {
+    margin: 2rem 0;
+}
+
+/* Tags Section */
+.tags {
+    background-color: #efefef;
+    padding: 1rem 1.5rem;
+    margin: 3rem 0;
+}
+
+.tags-box {
+    margin: 1.5rem 0;
+}
+
+.tags-box p {
+    margin: 2rem 0;
+}
+
+.tags-box span {
+    border: 0.5px solid #324376;
+    background-color: #fff;
+    color: #324376;
+    cursor: pointer;
+    transition: .7s all ease-in;
+}
+
+.tags-box span:hover {
+    color: #d59fe4;
+}

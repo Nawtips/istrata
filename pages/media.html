@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Media-news</title>
+</head>
+<body>
+
+    <div class="container-fluid  top-header p-2 d-md-flex justify-content-between align-items-center">
+
+        <div class="address">
+
+            <p class="text-white my-auto d-md-flex"> <span class="mx-2"><i class="bi bi-geo-alt"></i></span>121 King Street, Melbourne | <span class="left-para"> <span class="mx-2 "> <i class="bi bi-envelope-fill"></i> </span> i-strata@gmail.com </span> </p>
+
+        </div>
+
+        <div class="socials">
+
+            <p class="my-auto">
+
+               <a href="#"> <span><i class="bi bi-facebook text-white mx-1"></i></span></a>
+
+               <a href="#"><span><i class="bi bi-twitter text-white mx-1"></i></span></a>
+
+               <a href="#"><span><i class="bi bi-linkedin text-white mx-1"></i></span></a>
+
+               <a href="#"><span><i class="bi bi-instagram text-white mx-1"></i></span></a>
+
+               <span> <span class="text-white mx-2"> | </span>
+
+                <select id="" class="language">
+                    <option value="English" selected> English</option>
+                    <option value="Chinese"> Chinese</option>
+                    <option value="Spanish"> Spanish</option>
+                </select>
+               </span>
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid logo-box d-md-flex justify-content-between">
+
+        <div class="logo-container">
+
+            <a class="navbar-brand" href=""><img width="100" src="../images/logo.avif" alt="Dummy logo"></a>
+
+        </div>
+
+        <div class="subscribe">
+
+            <div class="mail-us d-flex align-items-center">
+
+               <div class="mx-3">
+
+                    <span class="p-2 mail-env fs-2"> <i class="bi bi-envelope-fill text-danger icon-mail"></i> </span>
+
+               </div>
+
+                <div class="mx-2">
+
+                    <h6 class="d-flex flex-column">
+
+                        <span class="mt-2"> Email Us </span> 
+
+                        <span class="mt-2"> webextheme@gmail.com </span>
+
+                    </h6>    
+
+                </div>
+
+            </div>
+
+            <div class="call-us d-flex align-items-center">
+
+                <div class="mx-3">
+ 
+                    <span class="p-2 phone fs-2"> <i class="bi bi-telephone-fill text-danger icon-phone"></i> </span>
+ 
+                </div>
+ 
+                <div class="mx-2">
+
+                    <h6 class="d-flex flex-column">
+
+                        <span class="mt-2"> Call Us </span> 
+
+                        <span class="mt-2"> +88-01234-567899 </span>
+
+                    </h6>    
+
+                </div>
+ 
+            </div>
+
+            <button class="btn btn-rounded sub-btn text-white"> Subscribe </button>
+
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark  sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand mr-4" href="">I-STRATA</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggle">
+
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link" href="../index.html">Home</a>
+                    <a class="nav-item nav-link" href="#about">About</a>    
+                </div>
+
+                <div class="navbar-nav">
+
+                    <a class="nav-item nav-link" href="./pages/media.html">Media</a>
+
+                    <a class="nav-item nav-link" href="{% url 'categories' 'Start-ups' %}">Data</a>
+
+                    <a class="nav-item nav-link" href="{% url 'categories' 'Business' %}">Business Concierge Services</a>
+                   
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container news-blog">
+
+        <div class="row">
+
+            <div class="col-md-7">
+
+                <article class="blog blog1 card">
+
+                    <img src="../images/hands.jpeg" alt="" class="card-img img-responsive">
+
+                    <div class="card-body">
+
+                        <div class="card-headings">
+
+                            <p> <span class="news-shade"> By Admin </span> | December 24, 2019</p>
+    
+                        </div>
+
+                        <h3 class="card-title  text-primary">
+                            Tech Entrepreneur Credits Paper For Success
+                        </h3>
+    
+                        <p class="card-text lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem 
+                            rerum voluptas harum provident fugiat tempora architecto mollitia quos 
+                            maiores perspiciatis, obcaecati, placeat aut. Architecto eaque accusamus 
+                            minima quis in earum dignissimos suscipit esse, saepe repudiandae similique, 
+                            expedita sed quam...
+                        </p>
+    
+                        <div class="card-btn-box">
+    
+                            <button class="btn rounded blog-btn text-white">
+                                READ MORE
+                            </button>
+    
+                       </div>
+
+                    </div>
+
+                </article>
+
+                <article class="blog blog2 card">
+
+                    <img src="../images/ladies.jpeg" alt="ladies" class="card-img img-responsive">
+
+                    <div class="card-body">
+
+                        <div class="card-headings">
+
+                            <p> <span class="news-shade"> By Admin </span> | December 24, 2019</p>
+    
+                        </div>
+
+                        <h3 class="card-title  text-primary">
+                            Nanotech Immersion Along The Highway
+                        </h3>
+    
+                        <p class="card-text lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem 
+                            rerum voluptas harum provident fugiat tempora architecto mollitia quos 
+                            maiores perspiciatis, obcaecati, placeat aut. Architecto eaque accusamus 
+                            minima quis in earum dignissimos suscipit esse, saepe repudiandae similique, 
+                            expedita sed quam...
+                        </p>
+    
+                        <div class="card-btn-box">
+    
+                            <button class="btn rounded blog-btn text-white">
+                                READ MORE
+                            </button>
+    
+                       </div>
+
+                    </div>
+
+                </article>
+
+                <article class="blog blog3 card">
+
+                    <img src="../images/new-meetings.jpeg" alt="ladies" class="card-img img-responsive">
+
+                    <div class="card-body">
+
+                        <div class="card-headings">
+
+                            <p> <span class="news-shade"> By Admin </span> | December 24, 2019</p>
+    
+                        </div>
+
+                        <h3 class="card-title  text-primary">
+                            3 Ways to Position Your Business Growth
+                        </h3>
+    
+                        <p class="card-text lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem 
+                            rerum voluptas harum provident fugiat tempora architecto mollitia quos 
+                            maiores perspiciatis, obcaecati, placeat aut. Architecto eaque accusamus 
+                            minima quis in earum dignissimos suscipit esse, saepe repudiandae similique, 
+                            expedita sed quam...
+                        </p>
+    
+                        <div class="card-btn-box">
+    
+                            <button class="btn rounded blog-btn text-white">
+                                READ MORE
+                            </button>
+    
+                       </div>
+
+                    </div>
+
+                </article>
+
+                <article class="blog blog4 card">
+
+                    <img src="../images/pexels-nappy-936137.jpg" alt="ladies" class="card-img img-responsive">
+
+                    <div class="card-body">
+
+                        <div class="card-headings">
+
+                            <p> <span class="news-shade"> By Admin </span> | December 24, 2019</p>
+    
+                        </div>
+
+                        <h3 class="card-title  text-primary">
+                            Make a Perfect Corporate Team for Business
+                        </h3>
+    
+                        <p class="card-text lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem 
+                            rerum voluptas harum provident fugiat tempora architecto mollitia quos 
+                            maiores perspiciatis, obcaecati, placeat aut. Architecto eaque accusamus 
+                            minima quis in earum dignissimos suscipit esse, saepe repudiandae similique, 
+                            expedita sed quam...
+                        </p>
+    
+                        <div class="card-btn-box">
+    
+                            <button class="btn rounded blog-btn text-white">
+                                READ MORE
+                            </button>
+    
+                       </div>
+
+                    </div>
+
+                </article>
+
+
+                <div class="page-nums">
+
+                    <div class="nums d-flex justify-content-center">
+
+                        <span class="num-one mx-2 py-2 px-4">1</span>
+
+                        <span  class="num-two mx-2 py-2 px-4">2</span>
+
+                        <span class="num-next mx-2 py-2 px-4"> &rightarrow; </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="news-search">
+
+                    <div class="n-search">
+
+                        <div class="searching">
+
+                            <input type="search" class="p-2" id="search" placeholder="search">
+
+                            <span class="search-icon"> <i class="bi bi-search"></i> </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="categories">
+
+                    <div class="categories-heading">
+
+                        <h5 class="d-flex align-items-center"> <span class="straight font-weight-bold mx-1 my-auto"> | </span> <span class="category">Categories</span></h5>
+
+                    </div>
+
+                    <section>
+
+                        <article class="cats cats1 py-3">
+
+                            <span class="cats-icon mx-2">  <i class="bi bi-hdd-fill"></i> </span>
+
+                            <p class="my-auto">Audio</p>
+
+                        </article>
+
+                        <article class="cats cats2 py-3">
+
+                            <span class="cats-icon mx-2">  <i class="bi bi-hdd-fill"></i> </span>
+
+                            <p class="my-auto">Video</p>
+
+                        </article>
+
+                        <article class="cats cats3 py-3">
+
+                            <span class="cats-icon mx-2">  <i class="bi bi-hdd-fill"></i> </span>
+
+                            <p class="my-auto">Article</p>
+
+                        </article>
+
+                    </section>
+
+                </div>
+
+                <div class="popular-posts">
+
+                    <div class="categories-heading">
+
+                        <h5 class="d-flex align-items-center"> <span class="straight font-weight-bold mx-1 my-auto"> | </span> <span class="category">Popular Posts</span></h5>
+
+                    </div>
+
+                    <section>
+
+                        <article class="popular-section d-flex align-items-center popular1">
+
+                            <img src="../images/pexels-christina-morillo-1181605.jpg" width="140" height="70" alt="">
+
+                            <div class="popular-title my-auto d-flex flex-column justify-content-center">
+
+                                <h6 class="my-auto">Business Solution</h6>
+
+                                <p class="my-auto"> <span> <i class="bi bi-clock"></i> </span> December 14, 2019</p>
+
+                            </div>
+
+                        </article>
+
+                        <article class="popular-section d-flex align-items-center popular2">
+
+                            <img src="../images/pexels-christina-morillo-1181605.jpg" width="140" height="70" alt="">
+
+                            <div class="popular-title my-auto d-flex flex-column justify-content-center">
+
+                                <h6 class="my-auto">Business Solution</h6>
+
+                                <p class="my-auto"> <span> <i class="bi bi-clock"></i> </span> December 14, 2019</p>
+
+                            </div>
+
+                        </article>
+
+                        <article class="popular-section d-flex align-items-center popular3">
+
+                            <img src="../images/pexels-christina-morillo-1181605.jpg" width="140" height="70" alt="">
+
+                            <div class="popular-title my-auto d-flex flex-column justify-content-center">
+
+                                <h6 class="my-auto">Business Solution</h6>
+
+                                <p class="my-auto"> <span> <i class="bi bi-clock"></i> </span> December 14, 2019</p>
+
+                            </div>
+
+                        </article>
+
+
+
+                    </section>
+                    
+                </div>
+
+                <div class="tags">
+
+                    <div class="categories-heading">
+
+                        <h5 class="d-flex align-items-center"> <span class="straight font-weight-bold mx-1 my-auto"> | </span> <span class="category">Tags</span></h5>
+
+                    </div>
+
+                    <div class="tags-box">
+
+                        <p>
+                            <span class="py-1 px-3">Business</span>
+                            <span class="py-1 px-3">Consulting</span>
+                        </p>
+
+                        <p>
+                            <span class="py-1 px-3">Corporate</span>
+                            <span class="py-1 px-3">Finance</span>
+                            <span class="py-1 px-3">Economics</span>
+                        </p>
+
+                        <p>
+                            <span class="py-1 px-3">Investment</span>
+                            <span class="py-1 px-3">Management</span>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
